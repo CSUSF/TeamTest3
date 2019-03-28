@@ -26,8 +26,8 @@ namespace dbMaintenanceBound.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=ravenlock,49170;Initial Catalog=Attendance;Persist Security Info=True" +
-            ";User ID=appAccess;Password=Update4Attend6!")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=reeves,49170;Initial Catalog=Attendance;Persist Security Info=True;Us" +
+            "er ID=appAccess;Password=Update4Attend6!")]
         public string AttendanceConnectionString {
             get {
                 return ((string)(this["AttendanceConnectionString"]));
