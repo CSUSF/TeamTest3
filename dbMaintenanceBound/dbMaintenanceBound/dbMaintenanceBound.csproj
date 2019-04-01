@@ -51,6 +51,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AttendanceDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="AttendLogTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AttendLogTypes.Designer.cs">
+      <DependentUpon>AttendLogTypes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +77,9 @@
     <Compile Include="ViewCourseInfo.Designer.cs">
       <DependentUpon>ViewCourseInfo.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AttendLogTypes.resx">
+      <DependentUpon>AttendLogTypes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
