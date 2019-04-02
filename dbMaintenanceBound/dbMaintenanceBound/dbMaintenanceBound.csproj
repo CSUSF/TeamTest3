@@ -51,6 +51,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AttendanceDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="attendBlackOutTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="attendBlackOutTypes.Designer.cs">
+      <DependentUpon>attendBlackOutTypes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +77,9 @@
     <Compile Include="ViewCourseInfo.Designer.cs">
       <DependentUpon>ViewCourseInfo.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="attendBlackOutTypes.resx">
+      <DependentUpon>attendBlackOutTypes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
